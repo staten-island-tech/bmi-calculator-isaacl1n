@@ -1,11 +1,10 @@
 console.log("connected");
-var bmiCalc = prompt("")
+var bmiCalc = prompt(e,e)
 
-function getBMI(h,w) {
-    ;
+function getBMI(h,m) {
+    return (m / 100(h * h));
 }
 
-function check(x)
     if(x >= 18.5 && x < 25) {
             console.log("normal"); 
         }
@@ -22,5 +21,5 @@ function check(x)
             console.log("error");
         }
 
-let x = getBMI(h,w);
+let x = getBMI(h,m);
     check(x)
