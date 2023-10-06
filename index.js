@@ -4,7 +4,7 @@ var m = prompt("Enter your weight in kilograms");
 var h = prompt("Enter your height in centimeters")
 
 function getBMI(h,m) {
-    return (m / ((h / 100)^2));
+    return (m / ((h / 100) * (h / 100)));
 }
 function check(x) {
     if(x >= 18.5 && x < 25) {
@@ -25,7 +25,7 @@ function check(x) {
         }
         else {
             console.log("error")
-            alert("You've encountered an error. Please try again.");
+            alert("You've encountered an error. Please make sure your inputs are valid.");
         }
     }
 
